@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[portfolio]]></title><description><![CDATA[portfolio]]></description><link>http://slashgear.github.io</link><generator>RSS for Node</generator><lastBuildDate>Mon, 24 Apr 2017 13:53:19 GMT</lastBuildDate><atom:link href="http://slashgear.github.io/feed.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[MiXiT 2017]]></title><description><![CDATA[<h2 id="mixit-2017"><a href="#mixit-2017" class="phenomic-HeadingAnchor">#</a>MiXiT 2017</h2>
+<p>Cette fin de semaine c'était la nouvelle édition de la super <em>conférence
+lyonnaise avec des crêpes et du coeur.</em> Malgré le tirage au sort (très contesté) mis en place cette année,
+j'ai réussi a obtenir le <em>golden ticket</em>.</p>
+<p><strong>⚠️ Disclaimer, dans cet article, je donne ici mon ressenti sur cette édition du mixit.
+Je vais essayer d'ajouter ici les liens vers les vidéos des conférences dès que les liens seront disponibles
+Je ne parle pas de tous les talks auxquels j'ai pu assister.</strong></p>
+<h2 id="une-introduction-toute-en-musique"><a href="#une-introduction-toute-en-musique" class="phenomic-HeadingAnchor">#</a>Une introduction toute en musique</h2>
+<p>Tout a commencé avec une super introduction musicale autour de la gestion de groupe
+géré d'une main de maître ...du moins d'une baguette de chef d'orchestre par Samuel Couffignal.
+Très bel exemple de l'autogestion d'un groupe et du pouvoir d'action qu'un leader peut avoir sur un groupe.</p>
+<p>Je vous passe l'anecdotique présentation de la monnaie locale : <em><a href="http://www.lagonette.org/">La gonette</a></em></p>
+<h2 id="jour-1"><a href="#jour-1" class="phenomic-HeadingAnchor">#</a>Jour 1</h2>
+<h3 id="elm-on-l-on-l-pas"><a href="#elm-on-l-on-l-pas" class="phenomic-HeadingAnchor">#</a>Elm on l'♥️, on l'♥️ pas</h3>
+<p>Premier talk, j'attaque par la présentation de Jordane
+Grenat sur ELM, une alternative pour le monde JS. Une présentation bien sympathique de l'environnement et de ses avantages.
+Beaucoup d'avantages sur cette plateforme, notamment le compilateur qui a vraiment été orienté utilisateur.
+L'analyse d'erreur de compilation est très fine et donne beaucoup d'informations sur la résolution de l'erreur.
+Je reste cependant pas du tout convaincu par la syntaxe que je trouve beaucoup trop concise
+et du coup pas forcément lisible. Et oui ceci est une fonction qui fait juste une addition.</p>
+<pre><code class="hljs language-elm"><span class="hljs-title">add</span> x y =
+  x + y</code></pre>
+<p>Je pense qu'avec de la pratique la syntaxe doit moins piquer les yeux mais quand même.</p>
+<h3 id="electron-par-les-copains-nantais"><a href="#electron-par-les-copains-nantais" class="phenomic-HeadingAnchor">#</a>Electron par les copains nantais</h3>
+<p>Contrairement à ce qu'on peut lire sur le slack de Zenika, Yvonnick Frin ne fait pas que de l'ionic ;)
+Il est même venu avec son collègue Eric Briand pour nous montrer Electron, la solution Github pour
+développer des applications desktop avec nos bonnes "vieilles" technologies front.
+Difficile de rentrer dans certains détails qui font polémique notamment la consommation
+des resources, mais cette présentation sait nous montrer les bases pour qu'on puisse commencer à faire joujou
+avec Electron.</p>
+<h3 id="Éthique-et-tac-"><a href="#%C3%89thique-et-tac-" class="phenomic-HeadingAnchor">#</a>Éthique et tac !</h3>
+<p>Quand un ancien journaliste de Numerama et actuel directeur de l'éthique chez Qwant (Guillaume Champeau) vient nous parler d'éthique, on se rappelle qu'on est bien à MiXiT.
+La conférence a abordé des thématiques comme les responsabilisations du développeur sur ce qu'il produit, le respect de la vie privée, etc.
+Sans parler d'un monde à la <em>Mister Robot,</em> on peut quand même faire le constat que notre sphère privée et intime
+ne nous appartient aujourd'hui plus tout à fait. A voir absolument, surtout si un complotiste sommeille en vous.</p>
+<h3 id="-is-awesome"><a href="#-is-awesome" class="phenomic-HeadingAnchor">#</a>🦄 is awesome!!</h3>
+<p>Dans le monde du web journalisme on parle souvent de titre putaclick et ce talk aurait
+quand même eu un prix pour son nom : <em>Css is awesome!</em>
+Derrière ce titre très racoleur se cachait une intervention très bien détaillée sur la puissance propre de CSS.
+Par des exemples simples, Igor Labori nous partage quelques tricks CSS bien pratiques mais également quelques
+balises HTML5 oubliées.</p>
+<p><details>
+<summary>Sérieusement vous connaissez cette balise ?</summary>
+Et oui, on a pu voir quelques balises html cool aussi
+</details></p>
+<h3 id="futur-of-kotlin-oui-je-sais-encore-du-kotlin"><a href="#futur-of-kotlin-oui-je-sais-encore-du-kotlin" class="phenomic-HeadingAnchor">#</a>Futur of Kotlin <em>Oui je sais, encore du Kotlin</em></h3>
+<p>Quand Mr Andrey Breslav lui-même se déplace à Lyon pour parler Kotlin, je me devais de venir suivre sa conférence.
+Outre la présentation des approximatives prochaines features (non-beta) de Kotlin, Andrey a pu nous partager
+son expérience de créateur de langage. A voir si on veut se tenir au courant des nouveautés de Kotlin et si
+on s'intéresse à la conception de langage.</p>
+<h3 id="progressive-web-apps-rien-de-nouveau"><a href="#progressive-web-apps-rien-de-nouveau" class="phenomic-HeadingAnchor">#</a>Progressive Web Apps, rien de nouveau</h3>
+<p>Un peu déçu de la présentation sur les progressive web apps, je ne m'attendais pas
+à une initiation PWA en 2017 sachant que ces concepts avaient été déjà présentés à MiXiT
+il y a 2 ans. Mais après je fais mon difficile, la présentation était très complète pour une initiation
+alors foncez la voir si pour vous les PWA sont un monde obscure.</p>
+<h2 id="la-soirée-à-lhotel-de-ville"><a href="#la-soir%C3%A9e-%C3%A0-lhotel-de-ville" class="phenomic-HeadingAnchor">#</a>La soirée à l'hotel de ville</h2>
+<p><img src="/assets/mixit17/soiree.jpg" alt="Soirée Mix-it 2017"></p>
+<h2 id="jour-2"><a href="#jour-2" class="phenomic-HeadingAnchor">#</a>Jour 2</h2>
+<p>On passe sur la keynote un peu trop <em>commercialobullshitojustu</em> de Regen Villages
+qui semble plus concentré sur sa communication publicitaire que sur la qualité de ses slides.</p>
+<h3 id="un-petit-talk-sur-le-monde-mystérieux-de-lergonomie"><a href="#un-petit-talk-sur-le-monde-myst%C3%A9rieux-de-lergonomie" class="phenomic-HeadingAnchor">#</a>Un petit talk sur le monde mystérieux de l'ergonomie</h3>
+<p>Et si on apprenait un peu à dialoguer avec un ergonome ? Ici Nathalie Cotté nous partage son expérience en tant
+qu'ergonome au sein d'une société d'édition de soft.
+Son retour et ses conseils sont très appréciables, elle nous donne un méthodologie assez simple pour améliorer
+l'ergonomie de son application afin d'éviter l'échec auprès des utilisateurs. A voir absolument si vous voulez arrêter
+de devoir former vos utilisateurs sur vos applications.</p>
+<h3 id="la-vexillologie-pour-les-nuls-"><a href="#la-vexillologie-pour-les-nuls-" class="phenomic-HeadingAnchor">#</a>La vexil<strong>LOL</strong>ogie pour les nuls 🇫🇷</h3>
+<p>Quand un passioné nous montre son bébé/son chef d'oeuvre autour de CSS et de la science des drapeaux,
+ça nous donne un talk hyper intéressant. Le défi fou de faire les drapeaux du monde entier avec un
+seul <code>div</code> et uniquement du CSS, c'est quand même beau. Le talk est en plus très bien conçu pour pouvoir comprendre la démarche
+et les solutions techniques mises en place. (<a href="https://pixelastic.github.io/css-flags/">Le lien vers la page de ses drapeaux</a>)</p>
+<p><img src="/assets/mixit17/fun.gif" alt="Fun with flags"></p>
+<h3 id="un-revenu-universel-démystifié"><a href="#un-revenu-universel-d%C3%A9mystifi%C3%A9" class="phenomic-HeadingAnchor">#</a>Un revenu universel démystifié</h3>
+<p>Quand on voit cette conf on se dit que la fête de l'huma ça a bien changé, attendez... heu non on est à MiXiT en fait.
+Ce talk, qu'on pourrait critiquer dans le contexte actuel des élections cache en fait une présentation assez claire sur ce qu'est
+concrêtement le revenu universel.</p>
+<h3 id="random-talk--se-libérer-du-temps"><a href="#random-talk--se-lib%C3%A9rer-du-temps" class="phenomic-HeadingAnchor">#</a>Random talk => se libérer du temps</h3>
+<p>Et si on se dégageait une journée par semaine pour vraiment faire ce dont on a envie.
+Est on prêt à se passer de 20% de notre salaire pour enfin avoir du temps pour soi.
+Tout cela était le sujet du random talk auquel j'ai eu le droit de participer le deuxième jour.
+Une belle introduction au <em>travailler autrement</em>.</p>
+<h3 id="cosmogonie-informatique-et-trou-noir-un-super-vrai--pour-finir"><a href="#cosmogonie-informatique-et-trou-noir-un-super-vrai--pour-finir" class="phenomic-HeadingAnchor">#</a>Cosmogonie, informatique et trou noir, un super vrai 👽 pour finir</h3>
+<p>Après deux jours de conférences, j'avais envie de me changer les idées et voir autre chose. Alors, pour finir,
+je suis allé voir une présentation typiquement alien sur l'univers et les trous noirs. Le talk est vraiment passionnant
+et ne semble pas avoir déçu la foule présente dans la salle. On notera quand même sur les panneaux de feedback que
+cette présentation manquait cruellement de démo.</p>
+<h1 id="conclusion"><a href="#conclusion" class="phenomic-HeadingAnchor">#</a>Conclusion</h1>
+<p>Encore une super édition concoctée par les bénévoles de MiXiT. Merci à eux.
+Je reste quand même sur ma faim avec certaines keynotes, mais le cru 2017 reste quand même une
+bonne année.</p>
+<p><em>Merci <a href="https://twitter.com/npayot">@npayot</a> (aka flipper le dauphin) serial blagueur et photographe à ses heures perdues pour la photo de l'article</em></p>
+<p><em>Merci à <a href="https://twitter.com/hdurix">@hdurix</a> pour la revue</em></p>
+]]></description><link>http://slashgear.github.io/posts/mixit17/</link><guid isPermaLink="true">http://slashgear.github.io/posts/mixit17/</guid><pubDate>Thu, 20 Apr 2017 00:00:00 GMT</pubDate></item><item><title><![CDATA[Github classroom - un outil à tester]]></title><description><![CDATA[<h1 id="github-classroom-pourquoi-vous-devriez-lutiliser"><a href="#github-classroom-pourquoi-vous-devriez-lutiliser" class="phenomic-HeadingAnchor">#</a>Github classroom, pourquoi vous devriez l'utiliser</h1>
+<p><strong>Lorsque j'ai commencé à enseigner en septembre dernier, je recherchais une solution
+pour pouvoir suivre facilement l'avancée des étudiants pendant leur TP. J'ai d'abord songé à leur
+demander l'accès à leur repository Github/Bitbucket... mais je me suis vite rendu compte que ça
+n'allait pas être gérable durablement. J'ai alors cherché une solution clé en main.</strong></p>
+<p>Je suis alors tombé au hasard de mes recherches sur le forum de la <a href="https://education.github.community">communauté des
+enseignants sur Github</a>. Une communauté très active et dont le sujet
+principal de discussion est <strong>Github classroom</strong>. J'ai alors décortiqué cette solution proposée par Github
+afin de la tester au plus vite avec mes étudiants.</p>
+<h1 id="constat-en-tp-on-est-très-mal-équipé"><a href="#constat-en-tp-on-est-tr%C3%A8s-mal-%C3%A9quip%C3%A9" class="phenomic-HeadingAnchor">#</a>Constat, en TP on est très mal équipé</h1>
+<p>Avant de vous décrire le fonctionnement et la mise en place de cet outil avec vos étudiants,
+je préfère faire une petite liste des problèmes que j'ai pu rencontrer en tant que professeur
+ou même en tant qu'étudiant lors de la réalisation d'un TP.</p>
+<ul>
+<li>
+<p><strong>Démarrer votre TP en 5 minutes avec vos étudiants, impossible.</strong>
+Il est clair que passer une clé usb de PC en PC pour distribuer soit les sources du TP soit
+le sujet ce n'est pas pratique. On observe facilement que certains étudiants
+ne commencent alors leur TP qu'au bout de 15/20 minutes.</p>
+</li>
+<li>
+<p><strong>Difficile de suivre l'avancement des étudiants.</strong>
+Il arrive que des étudiants souhaitent avoir de l'aide pour résoudre un problème
+avec leur projet. Sans outils, on est souvent obligé de faire de nombreux échanges par
+mail pour finir par se comprendre et réussir à apporter son aide. Se contextualiser
+en lisant un mail où l'élève lâche juste un <em>ça marche pooo !</em>, c'est pas très facile.</p>
+</li>
+<li>
+<p><strong>Le rapport, le code du projet, les mails d'échanges avec les étudiants, à des endroits différents.</strong>
+Le rendu du TP, il faut l'avouer c'est vraiment l'étape la plus énervante.
+Entre les étudiants qui oublient la moitié des choses à rendre, les retards,
+les outils de la faculté qui ne marchent pas, centraliser et noter les travaux pratiques des étudiants
+devient vite un véritable calvaire que l'on traine sur plusieurs jours.</p>
+</li>
+<li>
+<p><strong><em>"Non Monsieur j'ai pas copié" :</em></strong>
+Trop de fois les étudiants se Ctrl-C/Ctrl-V les TPs et cela peut être
+très compliqué de vérifier qu'un étudiant n'a pas juste recopié le code de son collègue.</p>
+</li>
+</ul>
+<ul>
+<li>
+<p><strong><em>"Et toi t'as fait quoi sur ce TP ?"</em></strong>
+Et oui, parfois, quand les étudiants sont en groupe, un fainéant peut se cacher au milieu.
+Il est donc difficile d'évaluer réellement la compréhension individuelle dans cette situation.</p>
+</li>
+<li>
+<p><strong>Comment vérifier que leur TP marche ? Dois-je l'installer ?</strong>
+40 élèves, TP par binôme, cela fait 20 TP à installer et à vérifier. Il arrive que l'élève ait
+configuré son projet un peu bizarrement et il vous faudra au moins 10 minutes pour comprendre
+ce qu'il a fait.</p>
+</li>
+</ul>
+<h1 id="préparer-un-tp-avec-github-classroom"><a href="#pr%C3%A9parer-un-tp-avec-github-classroom" class="phenomic-HeadingAnchor">#</a>Préparer un TP avec Github Classroom</h1>
+<p>Alors déjà pour être clair, utiliser un outil comme <strong>Github Classroom</strong> nécessite du temps
+de préparation supplémentaire. Il y a tout un tas de choses à configurer avant la première séance
+avec ses élèves. Cependant, ce temps de préparation va être largement récupéré dès que le TP aura commencé.</p>
+<h2 id="un-outil-bien-expliqué"><a href="#un-outil-bien-expliqu%C3%A9" class="phenomic-HeadingAnchor">#</a>Un outil bien expliqué</h2>
+<p>Cet outil a une prise en main assez évidente, mais Github nous a quand même fourni
+plusieurs vidéos explicatives qui suffisent à comprendre son utilisation.</p>
+<blockquote>
+<p>Getting started</p>
+<div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://www.youtube.com/embed/ChA_zph7aao?ecver=2" width="640" height="360" frameborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe></div>
+</blockquote>
+<blockquote>
+<p>How to set up group assignments</p>
+<div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://www.youtube.com/embed/-52quDR2QSc?ecver=2" width="640" height="360" frameborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe></div>
+</blockquote>
+<h2 id="les-contraintes"><a href="#les-contraintes" class="phenomic-HeadingAnchor">#</a>Les contraintes</h2>
+<p>Cet outil n'est pas magique, il impose quelques contraintes qui peuvent être
+bloquantes pour vous et vos étudiants.</p>
+<ul>
+<li>Il vous faut un compte Github</li>
+<li>Tous les élèves doivent avoir un compte Github, il peut être difficile d'imposer ça aux élèves</li>
+<li>Vous devez maitriser Git et bien connaitre l'interface de Github.</li>
+<li>Vos élèves doivent être autonomes avec Git.</li>
+<li>Vous devez créer une organisation sur Github (en quelques clics)</li>
+<li>Les sources des TP et les réalisations de vos étudiants seront publiques si <a href="https://education.github.com/discount_requests/new">vous
+ne demandez pas une organisation privée à Github pour votre école.</a></li>
+</ul>
+<h2 id="les-étapes-à-respecter"><a href="#les-%C3%A9tapes-%C3%A0-respecter" class="phenomic-HeadingAnchor">#</a>Les étapes à respecter</h2>
+<h3 id="1-préparer-vos-sources-et-votre-énoncé"><a href="#1-pr%C3%A9parer-vos-sources-et-votre-%C3%A9nonc%C3%A9" class="phenomic-HeadingAnchor">#</a>1. Préparer vos sources et votre énoncé</h3>
+<p>Il vous faudra tout d'abord déposer vos sources sur un dépot Github en
+veillant à bien le nommer pour le retrouver par la suite. Il faut aussi veiller à ne pas
+<em>marquer</em> vos TP par les fichiers de configuration de votre IDE. En effet,
+vos étudiants n'utiliseront pas forcément le même que vous et ces fichiers pourraient les gêner/les troubler
+<em>(il en faut peu)</em></p>
+<p>Je vous conseille également de rédiger l'énoncé en <a href="https://guides.github.com/features/mastering-markdown/">Markdown</a>
+directement dans le fichier <code>README.md</code> .</p>
+<p>Enfin, histoire de tout centraliser au même endroit, je vous pousse à
+définir un fichier <code>Rapport.md</code> pour que les étudiants rédigent également leur rapport en Markdown.
+(Après un premier test, les étudiants ont bien apprécié le Markdown. Très simple à comprendre, il leur a
+permis d'insérer du code mais également des images dans leur rapport sans prêter attention à la mise en page)</p>
+<p>Pour terminer, <a href="https://github.com/PolytechLyon/isi3-tp1-graph">voici un exemple de TP que j'ai configuré pour mes étudiants.</a></p>
+<h3 id="2-configurer-votre-assignement"><a href="#2-configurer-votre-assignement" class="phenomic-HeadingAnchor">#</a>2. Configurer votre <em>assignement</em></h3>
+<p>Une fois votre TP déposé sur un dépôt Github, il ne vous reste plus qu'à définir une <code>instance</code>
+de TP depuis l'interface de Github Classroom.</p>
+<p><img src="/assets/github-classroom/create-assignement.png" alt="Créer un assignement"></p>
+<p>Quelques petites astuces pour créer vos <em>assignements</em> :</p>
+<ul>
+<li>Bien préciser les classes, groupes, année dans le titre.</li>
+<li>Indiquer votre starter code de l'étape 1.</li>
+<li>Vous pouvez bloquer le nombre maximum d'élèves par groupe.</li>
+<li>Vous pouvez reprendre les équipes entre les différents TP d'une même matière.</li>
+</ul>
+<h3 id="3-diffuser-votre-tp-à-vos-élèves"><a href="#3-diffuser-votre-tp-%C3%A0-vos-%C3%A9l%C3%A8ves" class="phenomic-HeadingAnchor">#</a>3. Diffuser votre TP à vos élèves</h3>
+<p>Cette étape vous fera gagner un temps précieux, en effet, une fois votre <em>assignement</em> créé
+l'outil vous génère un lien qui permettra aux étudiants de s'y connecter et de se regrouper.</p>
+<p>Dans le cas des TP en groupe, un étudiant doit s'y connecter et créer son équipe, les autres pourront
+ensuite la rejoindre.</p>
+<p>Un <em>repository</em> sera alors créé par équipe.</p>
+<h3 id="4-suivre-vos-élèves-dans-leurs-développements"><a href="#4-suivre-vos-%C3%A9l%C3%A8ves-dans-leurs-d%C3%A9veloppements" class="phenomic-HeadingAnchor">#</a>4. Suivre vos élèves dans leurs développements</h3>
+<p>Vos étudiants vont un peu vous prendre pour la NSA, mais rassurez-les c'est pour leur bien.
+Une fois les dépots créés, vous pourrez voir sur votre page d'accueil github tous les commits
+de vos étudiants. Cela vous permettra de faire de la <em>review</em> au fil de l'eau si vous avez le temps.</p>
+<p>Vous pouvez également voir avec eux pour qu'ils ouvrent une <em>issue</em> s'ils ont besoin de votre aide.
+Dans cette situation vous serez notifié par mail. L'étudiant pourra même vous indiquer dans l'<em>issue</em>
+le code qui lui pose problème.</p>
+<h3 id="5-Évaluer-leurs-réalisations"><a href="#5-%C3%89valuer-leurs-r%C3%A9alisations" class="phenomic-HeadingAnchor">#</a>5. Évaluer leurs réalisations</h3>
+<p>Pour l'évaluation vous avez deux solutions :</p>
+<ul>
+<li>Inspecter leur <em>repository</em> et lire leur code. Pour cela je ne peux que vous conseiller
+l'extension <a href="https://chrome.google.com/webstore/detail/octotree/bkhaagjahfmjljalopjnoealnfndnagc">Octotree</a>
+qui vous permet d'afficher l'arbre des fichiers du dépôt.</li>
+<li>Mettre en place des tests unitaires sur le projet de base et connecter un outil de CI en SaaS comme travis-ci.</li>
+</ul>
+]]></description><link>http://slashgear.github.io/posts/github-classroom/</link><guid isPermaLink="true">http://slashgear.github.io/posts/github-classroom/</guid><pubDate>Sat, 25 Mar 2017 00:00:00 GMT</pubDate></item><item><title><![CDATA[Angular basics]]></title><description><![CDATA[<h1 id="angular-basics"><a href="#angular-basics" class="phenomic-HeadingAnchor">#</a>Angular basics</h1>
+<p>Those are my slides for the course I gave about Angular to students of Polytech Lyon in september 2016.</p>
+<div style="position:relative;height:0;padding-bottom:56.25%">
+<iframe src="https://slashgear.github.io/angular2-basics/#/" width="640" height="360" frameborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe>
+</div>
+]]></description><link>http://slashgear.github.io/posts/angular-training/</link><guid isPermaLink="true">http://slashgear.github.io/posts/angular-training/</guid><pubDate>Thu, 15 Sep 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Docker basics]]></title><description><![CDATA[<h1 id="docker-basics"><a href="#docker-basics" class="phenomic-HeadingAnchor">#</a>Docker basics</h1>
+<p>Those are my slides for the course I gave about docker to students of Polytech Lyon in september 2016.</p>
+<div style="position:relative;height:0;padding-bottom:56.25%">
+<iframe src="https://slashgear.github.io/docker-basics/#/" width="640" height="360" frameborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe>
+</div>
+]]></description><link>http://slashgear.github.io/posts/docker-training/</link><guid isPermaLink="true">http://slashgear.github.io/posts/docker-training/</guid><pubDate>Sat, 10 Sep 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Generator Rancher Catalog]]></title><description><![CDATA[<h1 id="generator-rancher-catalog"><a href="#generator-rancher-catalog" class="phenomic-HeadingAnchor">#</a>Generator Rancher Catalog</h1>
+<p>You can add private catalog entry in your Rancher instances, but creating
+configuration files could be really hard.</p>
+<p>In order to avoid errors, I create a <a href="https://github.com/Slashgear/generator-rancher-catalog">generator for Rancher catalog entry based on
+yeoman.</a></p>
+<pre><code class="hljs language-bash">npm install -g yo
+npm install -g generator-rancher-catalog</code></pre>
+<p>Then generate your new project:</p>
+<pre><code class="hljs language-bash">yo rancher-catalog</code></pre>
+<p>Don't hesitate to contribute, PR are welcome.</p>
+<p><a href="https://asciinema.org/a/644asuhwcljfkzm3j4g9j6qsg"><img src="https://asciinema.org/a/644asuhwcljfkzm3j4g9j6qsg.png" alt="asciicast"></a></p>
+]]></description><link>http://slashgear.github.io/posts/generator-rancher-catalog/</link><guid isPermaLink="true">http://slashgear.github.io/posts/generator-rancher-catalog/</guid><pubDate>Mon, 20 Jun 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Rancher - How to]]></title><description><![CDATA[<h1 id="rancher-un-orchestrateur-petit-mais-puissant"><a href="#rancher-un-orchestrateur-petit-mais-puissant" class="phenomic-HeadingAnchor">#</a>Rancher, un orchestrateur petit mais puissant</h1>
+<p>Mon expérience en tant que stagiaire chez Zenika m’a amené à utiliser
+Rancher pour orchestrer mes conteneurs Docker. Je vous présente ici un
+condensé de mon expérience avec cet outil, de son intérêt et de ses
+points forts, par le biais d’un petit “How to“ sur comment déployer son
+application ?</p>
+<p>On constate que de plus en plus d’utilisateurs Docker cherchent à
+manipuler plus facilement leurs conteneurs et à mettre en place du
+déploiement continu. L’environnement technique autour de la
+problématique d’orchestration des modèles CaaS (Container as a Service)
+est très large et il est parfois difficile de s’y retrouver.</p>
+<h2 id="quen-est-t-il-de-rancher-"><a href="#quen-est-t-il-de-rancher-" class="phenomic-HeadingAnchor">#</a>Qu’en est-t-il de Rancher ?</h2>
+<h3 id="késako"><a href="#k%C3%A9sako" class="phenomic-HeadingAnchor">#</a>Késako</h3>
+<p>Rancher, projet open-source créé par la société Rancher Labs est un
+outil gratuit d’orchestration de conteneurs Docker. Il permet de
+facilement déployer des conteneurs Docker sur des machines possédant
+Docker. Grâce à une configuration simple et complète, il permet de lier
+ses conteneurs afin de composer des architectures de services aisément.
+Il peut déployer des containeurs sur des services cloud comme AWS,
+Azure, DigitalOcean mais aussi sur des machines personnalisées
+possédant Docker tout en s’appuyant sur docker-machine.</p>
+<h3 id="une-installation-assez-simple"><a href="#une-installation-assez-simple" class="phenomic-HeadingAnchor">#</a>Une installation assez simple</h3>
+<p>Pour installer Rancher, à ce jour il suffit de posséder une machine
+linux 64-bit avec au moins 1GB de mémoire vive.</p>
+<pre><code class="hljs language-bash">$ sudo docker run <span class="hljs-_">-d</span> --restart=always -p 8080:8080 rancher/server</code></pre>
+<p>Après quelques minutes d’installation, le server Rancher est disponible
+sur le port 8080 de votre machine (l’image contient une base MySQL, un
+Zookeeper, Redis, et le serveur rancher). Vous pouvez vous y connecter
+car l’accès est par défaut ouvert à tous. Par la suite,  vous pourrez
+activer l’authentification,et ainsi facilement configurer des comptes
+pour vos utilisateurs.</p>
+<p><img src="/assets/rancher/Environnement.png" alt="Interface graphique de Rancher"></p>
+<h3 id="déployer-une-application-simple-avec-rancher"><a href="#d%C3%A9ployer-une-application-simple-avec-rancher" class="phenomic-HeadingAnchor">#</a>Déployer une application simple avec Rancher</h3>
+<p>Après l’IaaS, le SaaS, le PaaS, le DaaS et Patricia Kaas, voila
+maintenant venue l’ère du Caas (Container as a Service). L’objectif
+ici est de conteneuriser les services de son(ses) application(s) et de
+les faire interagir. Pour montrer simplement la mécanique de Rancher,
+j’ai choisi de vous présenter le déploiement d’une application web très
+simple nommée whoami, disponible sur le Docker Hub (développé en Go
+par Emile Vauge).</p>
+<p>Pour ce faire, je vais vous expliquer  la méthode de création de
+services par l’interface graphique. Sachez que l’on peut interagir
+avec Rancher par l’intermédiaire d’un outil en ligne de commande
+(rancher-cli,encore très limité pour l’instant) ou d’API REST.</p>
+<h4 id="ajouter-des-hosts-sur-lesquels-déployer"><a href="#ajouter-des-hosts-sur-lesquels-d%C3%A9ployer" class="phenomic-HeadingAnchor">#</a>Ajouter des hosts sur lesquels déployer</h4>
+<p>Dans un premier temps il faut définir des machines sur lesquelles
+déployer votre application.</p>
+<p><img src="/assets/rancher/machine.png" alt="Création de machines"></p>
+<p>Rancher propose des connecteurs à plusieurs services cloud du web comme
+Amazon EC2, Azure, Digital Ocean, mais vous pouvez également ajouter
+n’importe quelle machine disposant de docker comme “host” Rancher
+(“Custom”).</p>
+<p>Pour l’exemple, j’ai ajouté deux machines au cluster nommées node1 et
+node2, et j’ai ajouté l’hôte Rancher lui-même self
+(c’est possible mais non recommandé).</p>
+<p><img src="/assets/rancher/host.png" alt="Hosts"></p>
+<h4 id="créer-son-service"><a href="#cr%C3%A9er-son-service" class="phenomic-HeadingAnchor">#</a>Créer son service</h4>
+<p>Il faut maintenant créer une stack pour accueillir notre service whoami.
+Dans la logique Rancher, une stack est un ensemble de services.</p>
+<p><img src="/assets/rancher/stack.png" alt="Stack"></p>
+<p>On peut remarquer que pour l’ajout d’une stack, on peut importer un
+fichier <code>docker-compose.yml</code> et un fichier <code>rancher-compose.yml</code>.</p>
+<p>Le fichier docker-compose.yml définit la structure de la stack,
+l’ensemble de ses services ainsi que leurs configurations.
+Ce fichier est natif de l’api Docker Compose.`</p>
+<p>Le fichier rancher-compose est un “add-on” au docker compose,
+il permet de configurer des paramètres Rancher comme la configuration
+des loadbalancer (HA-Proxy) et la scalabilité horizontale des services.
+Ces deux fichiers sont exportables à tout moment, cela peut-être très
+pratique pour une réinstallation (par exemple, voici la
+<a href="https://drive.google.com/file/d/0B0NhGeba-vjZVnJldGRYUTBZaGs/view">configuration de la stack</a>
+qui est installée dans cette partie).</p>
+<p>Une fois la stack créée en lui donnant uniquement un nom, il faut
+ajouter notre service whoami. Pour cela il suffit de cliquer sur
+“Add service” et de le définir comme cela.</p>
+<p><img src="/assets/rancher/whoami.png" alt="Whoami example"></p>
+<p>On remarque que seul le nom du service, l’image docker et le “port map”
+ont été définis (ie: c’est un exemple simple, vous pouvez voir par les
+onglets du bas que la configuration peut être beaucoup plus poussée,
+gestion des volumes, du network du service, des HealthCheck).</p>
+<p>Après cette simple configuration, il suffira de cliquer sur “Create” et
+informagiquement votre service sera déployé sur un host choisi par Cattle.</p>
+<p>Vous allez me dire, “qu’est ce que Cattle ?”, et vous aurez raison.
+Cattle est l’orchestrateur par défaut utilisé par Rancher. Il est
+maintenu par l’équipe de Rancher et le projet est open-source et
+disponible sur Github.</p>
+<p>Sachez que Rancher fonctionne également avec Kubernetes, Swarm et
+Mesos mais pour cet article, je me suis limité à l’utilisation de Cattle.</p>
+<h4 id="scaler-et-loadbalancer"><a href="#scaler-et-loadbalancer" class="phenomic-HeadingAnchor">#</a>Scaler et Loadbalancer</h4>
+<p>Après quelques temps de démarrage, votre service whoami devrait être
+disponible.</p>
+<p><img src="/assets/rancher/start.png" alt="Start"></p>
+<p>Si vous cliquez sur le “80”, vous devez accéder au service whoami.
+Il vous donnera plusieurs informations sur lui-même, notamment son nom.</p>
+<p>Le but maintenant est de scaler notre service, afin de le distribuer
+sur plusieurs machines.</p>
+<p>Dans le détail du service, on peut voir que la scale est actuellement
+définie à 1. Il suffirait donc de l’augmenter ? Et bien non, le service
+que nous venons de définir occupe le port 80 de la machine. Il ne
+pourrait donc pas être disponible plus d’une fois par machine. Et c’est
+là l’une des problématiques des microservices :  l’allocation dynamique
+de port et la “connaissance” des services par le loadbalancer. Rancher
+offre une solution simple à ce problème, il ne faut plus réserver de
+port pour son application, le loadbalancer va connaître les services
+par l’orchestrateur.</p>
+<p>Il faut donc supprimer la configuration du port statique du service.</p>
+<p>Une fois le port libéré , il faut donc créer un loadbalancer qui
+distribue la charge entre les instances de whoami. Dans la stack,
+cliquez sur “Add Load Balancer”</p>
+<p><img src="/assets/rancher/loadb.png" alt="Load balancer"></p>
+<p>Une fois le loadbalancer créé, on peut donc augmenter la scale de son
+application sans avoir de problème d’allocation de port. Si vous cliquez
+le “80” du loadbalancer, vous devez atteindre votre service, et s’il
+est scalé, l’hostname devrait changer au refresh.</p>
+<p>A ce stade du déploiement, on peut se demander, ce qu’il en est de
+l’infrastructure des machines  créées plus tôt.</p>
+<p><img src="/assets/rancher/host2.png" alt="Hosts"></p>
+<p>Rancher a déployé les conteneurs docker de façon équilibrée entre les
+différentes machines. On peut définir nos propres règles de déploiement
+par l’utilisation de label sur les machines.</p>
+<p>Par exemple, on peut ajouter le label “name = frontend”, et pour chaque
+service que l’on crée, définir si il peut démarrer ou non sur la machine
+dont le name est frontend.</p>
+<p>Sur chacun des conteneurs, rancher nous permet d’accéder à un shell et
+une vue des logs, ce qui est très pratique pour le débug.</p>
+<p>Certes cet exemple était simple, mais on peut facilement déployer des
+architectures plus complexes grâce à Rancher, et c’est là tout son
+intérêt. Voici l’architecture des services de l’un des projets que j’ai
+déployé grâce à lui.</p>
+<p><img src="/assets/rancher/microservices.png" alt="Hosts"></p>
+<h3 id="un-«-bluegreen-deployement-»--et-une-rolling-upgrade-en-5-minutes"><a href="#un-%C2%AB-bluegreen-deployement-%C2%BB--et-une-rolling-upgrade-en-5-minutes" class="phenomic-HeadingAnchor">#</a>Un « blue/green deployement »  et une “rolling upgrade” en 5 minutes</h3>
+<p>Dans la plupart des cas, une mise en production est souvent un
+passage difficile pour le développeur. Les outils DevOps ont bien
+évidemment permis de simplifier cette étape cruciale de la vie d’un
+projet.</p>
+<p>Rancher permet d’utiliser plusieurs méthodes pour mettre à jour un
+service déjà en production tout en garantissant la continuité des
+services :</p>
+<h4 id="la-rolling-upgrade-remplacement-dun-service-par-un-autre"><a href="#la-rolling-upgrade-remplacement-dun-service-par-un-autre" class="phenomic-HeadingAnchor">#</a>La rolling upgrade (remplacement d’un service par un autre)</h4>
+<p><img src="/assets/rancher/indiana.gif" alt="Hosts"></p>
+<h4 id="le-bluegreen-deployement"><a href="#le-bluegreen-deployement" class="phenomic-HeadingAnchor">#</a>Le blue/green deployement</h4>
+<p>Ces deux méthodes ont été présentées par Christophe Furmaniak et
+Youcef Yekhlef (deux consultants architectes de Zenika) lors de leur
+intervention à de pendant la Devoxx 2016. Je ne peux que vous
+conseiller de la regarder :</p>
+<div style="position:relative;height:0;padding-bottom:56.25%">
+<iframe src="https://www.youtube.com/embed/QFqt8xMTChY?ecver=2" width="640" height="360" frameborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe>
+</div>
+<h3 id="un-service-dns-et-network-overlay"><a href="#un-service-dns-et-network-overlay" class="phenomic-HeadingAnchor">#</a>Un service DNS et Network overlay</h3>
+<p>Pour ceux qui ont déjà bien pratiqué Docker, faire communiquer deux
+containeurs entre eux sans avoir d’outil d’orchestration n’est pas très
+aisé. Bien sûr, il y a la publication de port sur le Host, mais on
+arrive vite aux limites. Rancher apporte nativement une fonctionnalité
+d’overlay network via un tunnel ipsec permettant à deux containers sur
+deux machines différentes d’être sur le même réseau virtuel. Rancher va
+plus loin puisqu’il possède son service DNS dans lequel il enregistre
+chaque nouveau container qu’il crée. Cela a plusieurs avantages:</p>
+<ul>
+<li>Deux services d’une même Stack se connaissent par leur nom ;</li>
+<li>Un service peut connaître un service d’une autre stack par <code>nomService.nomStack</code>.</li>
+</ul>
+<h3 id="un-catalogue-qui-senrichit"><a href="#un-catalogue-qui-senrichit" class="phenomic-HeadingAnchor">#</a>Un catalogue qui s’enrichit</h3>
+<p><img src="/assets/rancher/catalogue.png" alt="Rancher catalogue"></p>
+<p>Rancher possède son propre catalogue d’applications, ces applications
+sont sous la forme de groupes de stacks pré-configurées qui s’appuient
+sur les images du Docker Hub :</p>
+<ul>
+<li>La stack Elastic ;</li>
+<li>Janitor, un service basé sur docker-cleanup, pour nettoyer les images et conteneurs non-utilisés. ;</li>
+<li>Traefik, un load balancer développé en Go par Emile Vauge de la Zstartup Containous ;</li>
+<li>Gluster, un gestionnaire de volume partagé ;</li>
+<li>Odoo, le célèbre ERP open source ;</li>
+<li>etc.</li>
+</ul>
+<p>Il est aussi possible d’ajouter son propre
+<a href="http://docs.rancher.com/rancher/v1.5/en/catalog/">catalogue de stacks d’entreprise</a></p>
+<p>Je vous ai présenté ici les principales features de Rancher,
+je ne peux que vous conseiller de le tester pour faire joujou avec vos
+conteneurs Docker. Cependant, la question qu’on peut encore se poser
+aujourd’hui reste la suivante : Rancher ne restera-t-il qu’un joujou
+pour orchestrer des services ? On sait déjà que des entreprises comme
+Orange et Sony commencent à l’utiliser pour des besoins interne
+(cf : Sony et le playstation Network <a href="https://www.youtube.com/watch?v=hwhxXwT6zlw">https://www.youtube.com/watch?v=hwhxXwT6zlw</a>)</p>
+<p>N’hésitez surtout pas à partager vos expériences avec Rancher.</p>
+<p>Merci encore à Youcef Yekhlef, Christophe Furmaniak et à mon tuteur de
+stage Christophe Tardella pour l’aide apportée à la rédaction de cet article.</p>
+]]></description><link>http://slashgear.github.io/posts/rancher/</link><guid isPermaLink="true">http://slashgear.github.io/posts/rancher/</guid><pubDate>Mon, 13 Jun 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Kotlin in action]]></title><description><![CDATA[<h1 id="mes-impressions-sur-le-kotlin-suite-au-mix-it-2016"><a href="#mes-impressions-sur-le-kotlin-suite-au-mix-it-2016" class="phenomic-HeadingAnchor">#</a>Mes impressions sur le Kotlin suite au Mix-IT 2016</h1>
+<p>JetBrains, pour les développeurs Java enfermés dans une grotte et ne
+connaissant qu’Eclipse, outre le fait de fournir une suite d’outils
+pour le développement et un IDE Java (IntelliJ), s’est lancé en 2011
+dans la création d’un nouveau langage de programmation. <strong>Plein de
+promesses, ce langage, le Kotlin, présenté par Hadi Harriri lors du
+Mix-it 2016, m’a fait forte impression.</strong></p>
+<p>Du jeudi 21 au vendredi 22 avril 2016 se tenait à Lyon la sixième
+édition du Mix-IT. Rassemblant plus de 600 participants, cette
+convention aux allures de grande fête pour développeurs et agilistes
+permettaient de suivre talks, ateliers, conférences mais également
+d’échanger autour d’une délicieuse crêpe suzette avec des passionnés
+venus du monde entier.</p>
+<p>En attendant l’article de retour sur le Mix-IT, revenons-en au
+sujet principal de cet article, le Kotlin. Ne connaissant alors ce
+langage que de nom, j’étais très intrigué par la présentation de
+Mr Hadi Harriri nommée “Kotlin : ready for production”. Après une
+présentation assez sommaire de l’historique du langage et de l’objectif
+du projet de Jetbrains, on comprend assez rapidement qu’en introduisant
+le Kotlin, la firme internationale tente de répondre aux besoins des
+développeurs Java en rassemblant dans un langage le meilleur du Scala,
+des avantages du C#, et une concision poussée à l’extrême. C’est à se
+demander si la firme perd espoir en Oracle pour sortir de nouvelles
+versions de Java plus ambitieuses.</p>
+<h2 id="la-concision-ok"><a href="#la-concision-ok" class="phenomic-HeadingAnchor">#</a>La concision ok</h2>
+<p>Comme je le dis plus haut, la concision était une volonté et un objectif
+très clair de Jetbrains pour la création du langage Kotlin. Il est
+vrai qu’en Java, on peut très facilement  se retrouver à avoir du
+Boilerplate un peu partout. On pense aux getter/setter, très verbeux
+pour finalement une fonctionnalité qu’on peut résumer habilement.
+Évidemment, des plugins comme Lombok permettent par annotation de
+réduire tous ce volume de code.</p>
+<p><em>Afin de vous montrer un exemple de concision, voici une comparaison
+entre un objet très simple en Java et l’exact équivalent en Kotlin.</em></p>
+<p>Version Java :</p>
+<pre><code class="hljs language-java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Person</span> <span class="hljs-keyword">implements</span> <span class="hljs-title">Cloneable</span></span>{
+
+  <span class="hljs-keyword">private</span> String name;
+
+  <span class="hljs-keyword">private</span> Integer id;
+
+  <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-title">Person</span><span class="hljs-params">(String name,Integer id)</span></span>{
+    <span class="hljs-keyword">this</span>.name = name;
+    <span class="hljs-keyword">this</span>.id = id;
+  }
+
+  <span class="hljs-function"><span class="hljs-keyword">public</span> String <span class="hljs-title">getName</span><span class="hljs-params">()</span></span>{
+    <span class="hljs-keyword">return</span> name;
+  }
+
+  <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">setName</span><span class="hljs-params">(String name)</span></span>{
+    <span class="hljs-keyword">this</span>.name = name;
+  }
+
+  <span class="hljs-function"><span class="hljs-keyword">public</span> Integer <span class="hljs-title">getId</span><span class="hljs-params">()</span></span>{
+    <span class="hljs-keyword">return</span> id;
+  }
+
+  <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">setId</span><span class="hljs-params">(Integer id)</span></span>{
+    <span class="hljs-keyword">this</span>.id = id;
+  }
+  <span class="hljs-meta">@Override</span>
+  <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">boolean</span> <span class="hljs-title">equals</span><span class="hljs-params">(Object obj)</span> </span>{
+    <span class="hljs-keyword">if</span> (obj == <span class="hljs-keyword">this</span>) {
+      <span class="hljs-keyword">return</span> <span class="hljs-keyword">true</span>;
+    }
+    <span class="hljs-keyword">if</span> (obj == <span class="hljs-keyword">null</span> || obj.getClass() != <span class="hljs-keyword">this</span>.getClass()) {
+      <span class="hljs-keyword">return</span> <span class="hljs-keyword">false</span>;
+    }
+    Person guest = (Person) obj;
+    <span class="hljs-keyword">return</span> id == guest.id &#x26;&#x26; (name == guest.getName || (name != <span class="hljs-keyword">null</span> &#x26;&#x26; name.equals(guest.getName()))));
+  }
+
+  <span class="hljs-meta">@Override</span>
+  <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">int</span> <span class="hljs-title">hashCode</span><span class="hljs-params">()</span> </span>{
+    <span class="hljs-keyword">final</span> <span class="hljs-keyword">int</span> prime = <span class="hljs-number">31</span>;
+    <span class="hljs-keyword">int</span> result = <span class="hljs-number">1</span>;
+    result = prime * result + ((name == <span class="hljs-keyword">null</span>) ? <span class="hljs-number">0</span> : name.hashCode());
+    result = prime * result + id;
+    <span class="hljs-keyword">return</span> result;
+  }
+
+  <span class="hljs-meta">@Override</span>
+  <span class="hljs-function"><span class="hljs-keyword">public</span> String <span class="hljs-title">toString</span><span class="hljs-params">()</span></span>{
+    <span class="hljs-keyword">return</span><span class="hljs-string">"Person(name="</span>+name+<span class="hljs-string">",id="</span>+id<span class="hljs-string">")"</span>;
+  }
+
+  <span class="hljs-meta">@Override</span>
+  <span class="hljs-function"><span class="hljs-keyword">public</span> Object <span class="hljs-title">clone</span><span class="hljs-params">()</span></span>{
+     Person person = <span class="hljs-keyword">null</span>;
+	    <span class="hljs-keyword">try</span> {
+	      	person = (Person) <span class="hljs-keyword">super</span>.clone();
+	    } <span class="hljs-keyword">catch</span>(CloneNotSupportedException cnse) {
+	      	cnse.printStackTrace(System.err);
+	    }
+	    person.name = (String) name.clone();
+	    person.id = (Integer) id.clone();
+	    <span class="hljs-keyword">return</span> person;
+  }
+}</code></pre>
+<p>Version Kotlin :</p>
+<pre><code class="hljs language-kotlin">dat <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">User</span></span>(<span class="hljs-keyword">val</span> name: String, <span class="hljs-keyword">val</span> id: <span class="hljs-built_in">Int</span>)</code></pre>
+<p>Les fonctions venant de Object (toString,equals,..) sont apportées par
+le mot clef “data” devant “class” dans le fichier Kotlin.</p>
+<h2 id="des-fonctionnalités-intéressantes"><a href="#des-fonctionnalit%C3%A9s-int%C3%A9ressantes" class="phenomic-HeadingAnchor">#</a>Des fonctionnalités intéressantes</h2>
+<p>Lors de la conférence du Mix-IT, j’ai pu repérer quelques
+fonctionnalités qui me semblent réellement intéressantes à vous
+partager dans cet article. Cette liste n’est pas exhaustive, mais
+devrait vous donnez un aperçu des possibilités.</p>
+<h2 id="classes"><a href="#classes" class="phenomic-HeadingAnchor">#</a>Classes</h2>
+<p>Pour déclarer une classe en Kotlin, on peut se débarrasser des
+getter/setter, on peut définir un constructeur principal. En outre,
+on peut même définir la mutabilité des attributs de la classe grâce
+aux mots clés var (mutable) et val (read-only).</p>
+<pre><code class="hljs language-kotlin"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Person</span></span>(<span class="hljs-keyword">val</span> firstName: String, <span class="hljs-keyword">val</span> lastName: String, <span class="hljs-keyword">var</span> age: <span class="hljs-built_in">Int</span>) {
+  <span class="hljs-comment">// ...</span>
+}</code></pre>
+<h2 id="déclarations-de-fonction-sans-accolades-inline"><a href="#d%C3%A9clarations-de-fonction-sans-accolades-inline" class="phenomic-HeadingAnchor">#</a>Déclarations de fonction sans accolades (inline)</h2>
+<p>On peut déclarer des fonctions sans accolades, c’est assez compacte.
+On perd un peu en lisibilité mais on gagne en espace.</p>
+<pre><code class="hljs language-kotlin">(<span class="hljs-function"><span class="hljs-keyword">fun</span> <span class="hljs-title">add</span><span class="hljs-params">(i: <span class="hljs-type">Int</span>, j:<span class="hljs-type">Int</span>)</span></span> = i + j)</code></pre>
+<h2 id="des-conditions-plus-simples"><a href="#des-conditions-plus-simples" class="phenomic-HeadingAnchor">#</a>Des conditions plus simples</h2>
+<p>Adieu le switch au profit du when avec des “arrow operators”.</p>
+<pre><code class="hljs language-kotlin"><span class="hljs-keyword">when</span> (x) {
+  <span class="hljs-number">1</span> -> print(<span class="hljs-string">"x == 1"</span>)
+  <span class="hljs-number">2</span> -> print(<span class="hljs-string">"x == 2"</span>)
+  <span class="hljs-keyword">else</span> -> { <span class="hljs-comment">// Note the block</span>
+    print(<span class="hljs-string">"x is neither 1 nor 2"</span>)
+  }
+}</code></pre>
+<p>Pour les boucles rien de spécial à noter de particulier mais c’est sur l’opération “if” qu’on peut observer un ajout très pratique.</p>
+<pre><code class="hljs language-kotlin"><span class="hljs-keyword">val</span> max = <span class="hljs-keyword">if</span> (a > b) {
+    print(<span class="hljs-string">"Choose a"</span>)
+    a
+  } <span class="hljs-keyword">else</span> {
+    print(<span class="hljs-string">"Choose b"</span>)
+    b
+  }</code></pre>
+<p>La dernière expression du block if est la valeur du block. On évite
+donc l’initialisation de variables en dehors du bloc et évite sa
+modification dans chacune des branches. On peut remarquer que
+l’opérateur de fin d’instruction ‘;’ disparaît (en réalité
+il est optionnel)</p>
+<h2 id="adieu-les-nullpointerexception"><a href="#adieu-les-nullpointerexception" class="phenomic-HeadingAnchor">#</a>Adieu les “NullPointerException”</h2>
+<p>Kotlin a été pensé pour éviter les danger des références null et faire
+disparaître les NullPointerException et les “null-check”.</p>
+<pre><code class="hljs language-kotlin"><span class="hljs-keyword">var</span> a: String = <span class="hljs-string">"abc"</span>
+a = <span class="hljs-literal">null</span> <span class="hljs-comment">// compilation error</span>
+To allow nulls, we can declare a variable <span class="hljs-keyword">as</span> nullable string, written String?:
+
+<span class="hljs-keyword">var</span> b: String? = <span class="hljs-string">"abc"</span>
+b = <span class="hljs-literal">null</span> <span class="hljs-comment">// ok</span>
+
+b?.length</code></pre>
+<p>On ne peut pas affecter à une variable la valeur null si on n’a pas
+délibérément défini cette variable comme nullable. Le Kotlin introduit
+également le “call safe operator” qui permet de tester la nullité d’une
+variable avant l’appel d’un fonction sur cette variable.</p>
+<h2 id="des-fonctions-callable"><a href="#des-fonctions-callable" class="phenomic-HeadingAnchor">#</a>Des fonctions “Callable”</h2>
+<p>En Kotlin, une fonction peut être déclarée en dehors d’un objet. Cela
+peut paraître étrange vis à vis du Java mais cette fonctionnalité peut
+être très pratique, en particulier pour déclarer la fonction main de
+son projet.</p>
+<p>Une fonction déclarée en dehors d’un objet peut être appelé de
+n’importe quel endroit de cette façon :</p>
+<pre><code class="hljs language-kotlin"><span class="hljs-function"><span class="hljs-keyword">fun</span> <span class="hljs-title">hello</span><span class="hljs-params">()</span></span>{
+  print(<span class="hljs-string">"hello"</span>)
+}
+
+
+<span class="hljs-function"><span class="hljs-keyword">fun</span> <span class="hljs-title">main</span><span class="hljs-params">()</span></span>{
+  ::hello()
+}</code></pre>
+<h2 id="la-programmation-fonctionnelle-pour-les-gouverner-tous"><a href="#la-programmation-fonctionnelle-pour-les-gouverner-tous" class="phenomic-HeadingAnchor">#</a>La programmation fonctionnelle pour les gouverner tous</h2>
+<p>Le paradigme fonctionnelle est bien sûr présent dans le langage.  Il
+permet de réaliser toutes les opérations usuelles (map, reduce,
+forEach,etc,..)</p>
+<pre><code class="hljs language-kotlin"><span class="hljs-keyword">var</span> sum = <span class="hljs-number">0</span>
+ints.filter { it > <span class="hljs-number">0</span> }.forEach {
+  sum += it
+}
+print(sum)</code></pre>
+<h2 id="les-extension-functions"><a href="#les-extension-functions" class="phenomic-HeadingAnchor">#</a>Les “Extension Functions”</h2>
+<p>En Kotlin on peut “étendre” une classe par une fonction de manière
+assez simple. On peut donc facilement rajouter des méthodes sans passer
+par un héritage.</p>
+<pre><code class="hljs language-kotlin"><span class="hljs-function"><span class="hljs-keyword">fun</span> MutableList<span class="hljs-type">&#x3C;Int></span>.<span class="hljs-title">swap</span><span class="hljs-params">(index1: <span class="hljs-type">Int</span>, index2: <span class="hljs-type">Int</span>)</span></span> {
+  <span class="hljs-keyword">val</span> tmp = <span class="hljs-keyword">this</span>[index1] <span class="hljs-comment">// 'this' corresponds to the list</span>
+  <span class="hljs-keyword">this</span>[index1] = <span class="hljs-keyword">this</span>[index2]
+  <span class="hljs-keyword">this</span>[index2] = tmp
+}</code></pre>
+<p>Ici le mot-clé “this” permet d’accéder à l’objet étendu.</p>
+<h2 id="linteropérabilité"><a href="#linterop%C3%A9rabilit%C3%A9" class="phenomic-HeadingAnchor">#</a>L’interopérabilité</h2>
+<p>La question soulevée par ce nouveau langage vient assez rapidement.
+Peut-on facilement passer de Java à Kotlin? Est-ce que notre code
+Kotlin va fonctionner avec tous le code Java que l’on a déjà?
+Est-ce que nos outils actuels sont adaptés au développement Kotlin?</p>
+<h2 id="les-ide"><a href="#les-ide" class="phenomic-HeadingAnchor">#</a>Les IDE</h2>
+<p>Bien évidemment, JetBrains met ses produits en avant pour
+l’utilisation du Kotlin. On peut en effet utiliser leur célèbre IDE
+Intellij pour développer dans ce langage. Cerise sur la gâteau, on
+peut même utiliser la version Community gratuite pour se faire une
+idée. Il existe également un plugin pour Eclipse. Par contre, aucun
+projet de plugin n’est en cours pour NetBeans.</p>
+<h2 id="java"><a href="#java" class="phenomic-HeadingAnchor">#</a>Java</h2>
+<p>Kotlin permet également une compatibilité avec toutes les
+librairies Java, c’est sûrement l’argument le plus fort et évidemment
+mis en avant par JetBrains. Le code créé peut donc fonctionner sur une
+JVM de la version 6 à 8.</p>
+<p>On peut donc profiter de tous les avantages du langage Kotlin tout en
+restant 10 ans en arrière coté virtual machine.
+Enfin, aucune modification n’est nécessaire pour faire intéragir du
+code Java avec du Kotlin. De plus, l’appel de méthode Java est
+complètement transparent pour le Kotlin.</p>
+<h2 id="javascript"><a href="#javascript" class="phenomic-HeadingAnchor">#</a>Javascript</h2>
+<p>Et oui, JetBrains n’a pas voulu ignorer le mouvement récent du
+développement Javascript. On peut donc cibler le langage Javascript au
+build afin de faire tourner son application Kotlin sur un
+environnement NodeJS ou bien dans un navigateur.Cette fonctionnalité
+est donc à tester. On tient peut-être ici une alternative au
+TypeScript ?… mais ça reste à mes yeux gadget.</p>
+<h2 id="android"><a href="#android" class="phenomic-HeadingAnchor">#</a>Android</h2>
+<p>N’ayant fait que quelques Lab Android, je n’ai pas forcément une
+vision complète de l’environnement, mais je me souviens avoir été gêné
+par le nombre de ligne de code Java nécessaire pour obtenir une si
+simple application mobile.</p>
+<p>Il se trouve que l’on peut dès aujourd’hui développer des applications
+mobiles Android depuis l’IDE recommandé par Google
+(i.e: Android Studio) en Kotlin, à tester pour les amateurs.</p>
+<h2 id="spring-boot"><a href="#spring-boot" class="phenomic-HeadingAnchor">#</a>Spring Boot</h2>
+<p>Enfin, on peut voir que le Kotlin intéresse les committers du projet
+Spring, notamment le lyonnais Sébastien Deleuze avec cet article
+intitulé Developing Spring Boot applications with Kotlin. Voir autant
+d’effervescence autour de ce langage rassure un peu, et
+personnellement je pense tenter l’utilisation du Kotlin dans le
+contexte Spring Boot pour me faire une idée plus objective sur le sujet.</p>
+<p>D’ailleurs, le Spring Initializr intègre depuis quelques temps
+l’option de génération de projet Spring Boot en Kotlin.</p>
+<p>N’hésitez pas à aller tester ce langage sur le site et vous faire
+votre propre avis sur ce langage. Quand à moi, je vais rapidement
+l’essayer pour un de mes projets.</p>
+<p>D’autres ressources sont disponibles sur le Github d’<a href="https://github.com/hhariri/awesome-kotlin">Hadi Hariri</a>
+pourraient vous intéresser</p>
+]]></description><link>http://slashgear.github.io/posts/kotlin/</link><guid isPermaLink="true">http://slashgear.github.io/posts/kotlin/</guid><pubDate>Tue, 26 Apr 2016 00:00:00 GMT</pubDate></item></channel></rss>
